@@ -1,0 +1,111 @@
+[
+  {
+    "roomId": "101",
+    "customer": {
+      "name": "张三",
+      "phone": "13800000000",
+      "member": {
+        "memberId": "V001",
+        "name": "张三",
+        "phone": "13800000000",
+        "level": 3,
+        "discount": 0.9
+      }
+    },
+    "startTime": {
+      "date": {
+        "year": 2026,
+        "month": 5,
+        "day": 12
+      },
+      "time": {
+        "hour": 21,
+        "minute": 50,
+        "second": 19,
+        "nano": 201707400
+      }
+    },
+    "endTime": {
+      "date": {
+        "year": 2026,
+        "month": 5,
+        "day": 12
+      },
+      "time": {
+        "hour": 21,
+        "minute": 53,
+        "second": 23,
+        "nano": 622572000
+      }
+    },
+    "cost": 1.35
+  },
+  {
+    "roomId": "102",
+    "customer": {
+      "name": "李四",
+      "phone": "13912345678"
+    },
+    "startTime": {
+      "date": {
+        "year": 2026,
+        "month": 5,
+        "day": 12
+      },
+      "time": {
+        "hour": 21,
+        "minute": 51,
+        "second": 13,
+        "nano": 360999200
+      }
+    },
+    "endTime": {
+      "date": {
+        "year": 2026,
+        "month": 5,
+        "day": 12
+      },
+      "time": {
+        "hour": 21,
+        "minute": 54,
+        "second": 32,
+        "nano": 628160400
+      }
+    },
+    "cost": 1.5
+  },
+  {
+    "roomId": "201",
+    "customer": {
+      "name": "王五",
+      "phone": "13500000000"
+    },
+    "startTime": {
+      "date": {
+        "year": 2026,
+        "month": 5,
+        "day": 12
+      },
+      "time": {
+        "hour": 21,
+        "minute": 53,
+        "second": 2,
+        "nano": 741620700
+      }
+    },
+    "endTime": {
+      "date": {
+        "year": 2026,
+        "month": 5,
+        "day": 12
+      },
+      "time": {
+        "hour": 21,
+        "minute": 54,
+        "second": 37,
+        "nano": 852568400
+      }
+    },
+    "cost": 1.5999999999999999
+  }
+]
