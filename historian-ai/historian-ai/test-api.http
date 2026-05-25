@@ -1,0 +1,10 @@
+### 健康检查
+GET http://localhost:8080/api/creative/health
+
+### 生成盲盒文创
+POST http://localhost:8080/api/creative/generate
+Content-Type: application/json
+
+{
+  "prompt": "图书馆5楼靠窗，夕阳，复习的第100天"
+}
