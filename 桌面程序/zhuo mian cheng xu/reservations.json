@@ -32,6 +32,41 @@
         "nano": 0
       }
     },
-    "status": "有效"
+    "status": "已过期"
+  },
+  {
+    "reservationId": "ddcca465",
+    "roomId": "101",
+    "customer": {
+      "name": "w",
+      "phone": "123"
+    },
+    "startTime": {
+      "date": {
+        "year": 2026,
+        "month": 6,
+        "day": 22
+      },
+      "time": {
+        "hour": 20,
+        "minute": 11,
+        "second": 0,
+        "nano": 0
+      }
+    },
+    "endTime": {
+      "date": {
+        "year": 2026,
+        "month": 6,
+        "day": 22
+      },
+      "time": {
+        "hour": 21,
+        "minute": 0,
+        "second": 0,
+        "nano": 0
+      }
+    },
+    "status": "已使用"
   }
 ]

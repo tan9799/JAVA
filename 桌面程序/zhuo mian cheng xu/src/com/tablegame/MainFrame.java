@@ -203,12 +203,17 @@ public class MainFrame extends JFrame {
         if (selectedRoom.getStatus() != RoomStatus.FREE) { JOptionPane.showMessageDialog(this, "该房间不可预约"); return; }
         ReservationDialog dlg = new ReservationDialog(this, selectedRoom.getRoomId());
         dlg.setVisible(true);
+        // 在 makeReservation() 中
         if (dlg.isConfirmed()) {
             String resId = UUID.randomUUID().toString().substring(0, 8);
             Reservation res = new Reservation(resId, selectedRoom.getRoomId(),
                     dlg.getCustomer(), dlg.getStartDateTime(), dlg.getEndDateTime());
             reservations.add(res);
-            updateReservationStatus();
+            // --- 新增两行 ---
+            selectedRoom.setStatus(RoomStatus.RESERVED);
+            selectedRoom.setCurrentReservation(res);
+            // --- 新增结束 ---
+            updateReservationStatus(); // 但这里实际上会覆盖，建议去掉或合并
             refreshRoomList();
             JOptionPane.showMessageDialog(this, "预约成功");
         }

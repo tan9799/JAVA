@@ -5,5 +5,12 @@
     "phone": "13800000000",
     "level": 3,
     "discount": 0.9
+  },
+  {
+    "memberId": "121",
+    "name": "w",
+    "phone": "123",
+    "level": 1,
+    "discount": 1.0
   }
 ]

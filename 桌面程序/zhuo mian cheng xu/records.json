@@ -107,5 +107,39 @@
       }
     },
     "cost": 1.5999999999999999
+  },
+  {
+    "roomId": "101",
+    "customer": {
+      "name": "w",
+      "phone": "123"
+    },
+    "startTime": {
+      "date": {
+        "year": 2026,
+        "month": 6,
+        "day": 22
+      },
+      "time": {
+        "hour": 20,
+        "minute": 13,
+        "second": 31,
+        "nano": 353210400
+      }
+    },
+    "endTime": {
+      "date": {
+        "year": 2026,
+        "month": 6,
+        "day": 22
+      },
+      "time": {
+        "hour": 20,
+        "minute": 13,
+        "second": 37,
+        "nano": 343685200
+      }
+    },
+    "cost": 0.0
   }
 ]

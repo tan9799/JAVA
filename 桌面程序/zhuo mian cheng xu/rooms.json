@@ -19,5 +19,12 @@
     "pricePerHour": 80.0,
     "status": "FREE",
     "className": "com.tablegame.VIPRoom"
+  },
+  {
+    "roomId": "103",
+    "type": "标准间",
+    "pricePerHour": 20.0,
+    "status": "FREE",
+    "className": "com.tablegame.StdRoom"
   }
 ]

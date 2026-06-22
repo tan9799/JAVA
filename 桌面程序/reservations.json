@@ -1,1 +1,107 @@
-[]
+[
+  {
+    "reservationId": "da01398d",
+    "roomId": "101",
+    "customer": {
+      "name": "w",
+      "phone": "123"
+    },
+    "startTime": {
+      "date": {
+        "year": 2026,
+        "month": 6,
+        "day": 23
+      },
+      "time": {
+        "hour": 10,
+        "minute": 0,
+        "second": 0,
+        "nano": 0
+      }
+    },
+    "endTime": {
+      "date": {
+        "year": 2026,
+        "month": 6,
+        "day": 23
+      },
+      "time": {
+        "hour": 12,
+        "minute": 0,
+        "second": 0,
+        "nano": 0
+      }
+    },
+    "status": "有效"
+  },
+  {
+    "reservationId": "4356ee5c",
+    "roomId": "101",
+    "customer": {
+      "name": "w",
+      "phone": "123"
+    },
+    "startTime": {
+      "date": {
+        "year": 2026,
+        "month": 6,
+        "day": 23
+      },
+      "time": {
+        "hour": 13,
+        "minute": 0,
+        "second": 0,
+        "nano": 0
+      }
+    },
+    "endTime": {
+      "date": {
+        "year": 2026,
+        "month": 6,
+        "day": 23
+      },
+      "time": {
+        "hour": 14,
+        "minute": 0,
+        "second": 0,
+        "nano": 0
+      }
+    },
+    "status": "有效"
+  },
+  {
+    "reservationId": "3a0354dd",
+    "roomId": "103",
+    "customer": {
+      "name": "q",
+      "phone": "123456"
+    },
+    "startTime": {
+      "date": {
+        "year": 2026,
+        "month": 6,
+        "day": 23
+      },
+      "time": {
+        "hour": 10,
+        "minute": 0,
+        "second": 0,
+        "nano": 0
+      }
+    },
+    "endTime": {
+      "date": {
+        "year": 2026,
+        "month": 6,
+        "day": 23
+      },
+      "time": {
+        "hour": 12,
+        "minute": 0,
+        "second": 0,
+        "nano": 0
+      }
+    },
+    "status": "已使用"
+  }
+]
